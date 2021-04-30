@@ -4,6 +4,8 @@
   "description": "對你身邊的 `工程師`、`設計師`、`創業家` 隨便說一句幹話的工具",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "stylelinz",
