@@ -14,7 +14,7 @@ module.exports = function getTrashTalk (careerOption) {
     }
   }
 
-  const phrase = ['很簡單', '很容易', '很快', '很正常']
+  const phrase = ['很簡單', '很容易', '很快', '很正常', '基基本本']
 
   function getRandomItemInArray (arr) {
     // '~~' == Math.floor()
