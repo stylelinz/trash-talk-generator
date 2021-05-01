@@ -1,0 +1,54 @@
+<div class="container mt-5">
+  <div class="card">
+    <div class="row">
+      <div class="card-body text-center">
+        <h2 class="card-title">你想對誰說幹話?</h2>
+      </div>
+    </div>
+    <hr>
+    <form action="/" method="post" class="card-body">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-around mb-3">
+          <div class="form-check">
+            <div class="card">
+              <label for="engineer"><img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg" alt="PIC-engineer" class="mb-2 card-img-top"></label>
+              <div class="card-body mx-auto">
+                <label for="engineer"><p class="card-text">工程師</p></label>
+                <input type="radio" name="career" value="engineer" id="engineer" class="form-check-input" >
+              </div>
+            </div>
+          </div>
+
+          <div class="form-check">
+            <div class="card">
+              <label for="designer"><img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg" alt="PIC-designer" class="mb-2 card-img-top"></label>
+              <div class="card-body mx-auto">
+                <label for="designer"><p class="card-text">設計師</p></label>
+                <input type="radio" name="career" value="designer" id="designer" class="form-check-input">
+              </div>
+            </div>
+          </div>
+          <div class="form-check">
+            <div class="card">
+              <label for="entrepreneur"><img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg" alt="PIC-entrepreneur" class="mb-2 card-img-top"></label>
+              <div class="card-body mx-auto">
+                <label for="entrepreneur"><p class="card-text">創業家</p></label>
+                <input type="radio" name="career" value="entrepreneur" id="entrepreneur" class="form-check-input">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5 mx-2">
+        <div class="col-3 d-flex justify-content-center">
+          <div>
+            <button class="btn btn-primary" type="submit">產生幹話</button>
+          </div>
+        </div>
+        <div class="col-9">
+          <textarea class="form-control" rows="3">{{trashTalk}}</textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
